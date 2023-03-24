@@ -3,7 +3,7 @@
 :root {
   --main-text-color: #333;
   --secundary-text-color: #ffffff;
-  --background-button-color: ##00dafc;
+  --background-button-color: #00dafc;
 
   font-size: 62.5%;
 }
@@ -53,7 +53,6 @@ header .header-text {
 .header-text a {
   font-size: 1.4rem;
   font-weight: 800;
-  text-decoration: none;
   text-transform: uppercase;
   color: var(--secundary-text-color);
   background-color: #02E00A;
@@ -77,3 +76,76 @@ header .header-text {
   }
 }
 
+#home {
+  background-color: transparent;
+  background-image: background-color: transparent;
+  background-image: linear-gradient(130deg, #0A0780 0%, #0A0011 89%);
+   
+}
+
+#home .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#home .logo img {
+  border-radius: 50%;
+  width: 10rem;
+  margin-bottom: 3rem;
+}
+
+#home .btn-curso {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--secundary-text-color);
+  padding: 1rem 2.4rem;
+  border-radius: 4.5rem;
+  background-color: var(--background-button-color);
+  box-shadow: 0px 0px 30px 0px rgba(52.99999999999998, 227.80434782608685, 239.99999999999994, 0.6);
+  transition: all .3s;
+}
+
+#home .btn-curso:hover {
+  background-color: #4632da;
+}
+
+#home .content h2 {
+  color: var(--secundary-text-color);
+  font-size: 4.6rem;
+  font-weight: 300;
+  line-height: 0.9em;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home .content h2 span {
+  font-weight: 900;
+}
+
+#home .content p {
+  text-align: center;
+  color: var(--secundary-text-color);
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+#home .btn-inscre {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--secundary-text-color);
+  background-color: var(--background-button-color);
+  padding: 2.4rem 4.6rem;
+  border-radius: 4.5rem;
+  box-shadow: 0px 0px 30px 0px rgba(52.99999999999998, 227.80434782608685, 239.99999999999994, 0.6);
+  transition: all .3s;
+}
+
+#home .btn-inscre:hover {
+  background-color: #4632da;
+}
